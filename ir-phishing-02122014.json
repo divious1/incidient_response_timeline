@@ -1,0 +1,81 @@
+{                                                                                                                                                                                                                                                                             
+    "timeline":                                                                                                                                                                                                                                                                
+    {                                                                                                                                                                                                                                                                          
+    "headline":"OPSEC 2/12/2014 Incident",
+        "type":"default",
+                "text":"Spear Phishing Attempt",
+                "startDate":"2014-02-12T14:27:00.000Z",
+        "date": [
+    {
+        "startDate": "2014-02-12T18:27:00.000Z",
+        "endDate": "2014-02-12T18:27:00.000Z",
+        "headline": "Abram notifies OPSEC",
+        "text": "Abram calls OPSEC to inform them of an attempt to gain unauthorized funds from our account.",
+        "type": "First Contact with OPSEC",
+        "asset":
+                {
+                }
+
+    },
+    {
+        "startDate": "2014--22T18:30:00.000Z",
+        "endDate": "2014-11-22T18:35:00.000Z",
+        "headline": "Abram forwards malicious email",
+        "text": "OPSEC requested Abram forward the malicious eMail for further review.",
+        "type": "",
+        "asset":
+                {
+                }
+    },
+    {
+        "startDate": "2014-02-12T18:42:00.000Z",
+        "endDate": "2014-02-12T18:50:00.000Z",
+        "headline": "OPSEC locks down Abram's inbox",
+        "text": "By changing the password temporarily, OPSEC blocks any possible unauthorized access to Abram's GMail account."
+    },
+    {
+        "startDate": "2014-02-12T18:52:00.000Z",
+        "endDate": "2014-02-12T18:58:00.000Z",
+        "headline": "Postini Block",
+        "text": "OPSEC denies any inbound email from various sarif.com alternate addresses, including saif, and sarrif.",
+        "asset":
+                {
+                  
+                }
+
+    },
+    {
+        "startDate": "2014-02-12T19:01:00.000Z",
+        "endDate": "2014-02-12T19:15:00.000Z",
+        "headline": "Notification Email",
+        "text": "OPSEC produced an eMail for all of the Sarif employees, reminding them of the dangers of Phishing, and to be aware we are being targeted."
+    },
+    {
+        "startDate": "2014-02-12T19:52:00.000Z",
+        "endDate": "2014-02-12T19:55:00.000Z",
+        "headline": "Operation:  THAT'S MINE!",
+        "text": "eMail was sent to the Attacker's registrar, informing them of the malicious fraud attempt."
+    },
+    {
+        "startDate": "2014-02-12T19:57:57.000Z",
+        "endDate": "2014-02-12T20:05:00.000Z",
+        "headline": "CAUGHT IN THE ACT!",
+        "text": "Using a non-existant page on the Sarif portal, OPSEC was able to determine the attacker's source IP.  This IP was extracted from our WebLogs",
+        "asset":
+                {
+                   
+                }
+    },
+
+
+    {
+        "startDate": "2014-02-12T20:14.000Z",
+        "endDate": "2014-02-12T20:20:00.000Z",
+        "headline": "Beginning of the End",
+        "text": "OPSEC eMailed Softlayer, the owner of the IP block the attacker originated from, notifying them of this fraudulent activity.",
+        "type": "title"
+    }
+        ]
+    }
+}
+

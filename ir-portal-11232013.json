@@ -1,0 +1,133 @@
+ {                                                                                                                                                                                                                                                                             
+    "timeline":                                                                                                                                                                                                                                                                
+    {                                                                                                                                                                                                                                                                          
+    "headline":"OPSEC 11/22-11/23 Incident",
+        "type":"default",
+                "text":"Portal Attack",
+                "startDate":"2013-11-22T05:00:00.000Z",
+        "date": [
+    {
+        "startDate": "2013-11-22T18:18:00.000Z",
+        "endDate": "2013-11-22T23:56:00.000Z",
+        "headline": "Brute Force Attempt #1",
+        "text": "Attacker tries to Brute-force portal.sarif.com, using an dictionary of email addresses for valid sarif employees.",
+        "type": "Bruteforce portal.sarif.com",
+        "asset":
+                {
+                    "media":"img/portal.sarif.com-bruteforce.png"
+                }
+
+    },
+    {
+        "startDate": "2013-11-22T22:00:00.000Z",
+        "endDate": "2013-11-22T22:30:00.000Z",
+        "headline": "Notification to OPSEC",
+        "text": "Adam Jensen notified OPSEC of possible intrusion attempts.  OPSEC immediately logged in to verify.",
+        "type": "Notified",
+        "asset":
+                {
+                }
+    },
+    {
+        "startDate": "2013-11-22T22:30:00.000Z",
+        "endDate": "2013-11-22T22:30:00.000Z",
+        "headline": "OPSEC notification to Sarif Industries",
+        "text": "OPSEC notified System Owners, Application Owners, and Affected Users"
+    },
+    {
+        "startDate": "2013-11-23T00:38:00.000Z",
+        "endDate": "2013-11-23T00:38:00.000Z",
+        "headline": "Brute for signature was identified",
+        "text": "Adam Jensen gives the full list of accounts being attacked on the portal and legacy portal",
+        "asset":
+                {
+                    "media":"img/portal-attempted-passwords.png"
+                }
+
+    },
+    {
+        "startDate": "2013-11-23T00:44:00.000Z",
+        "endDate": "2013-11-23T00:44:00.000Z",
+        "headline": "Portal Admin Accounts disabled",
+        "text": "OPSEC and QA worked together to disable all portal admin accounts"
+    },
+    {
+        "startDate": "2013-11-23T09:13:00.000Z",
+        "endDate": "2013-11-23T09:13:00.000Z",
+        "headline": "SOC adds Responder Policies",
+        "text": "OPSEC instructed SOC to add responder policies, mitigating the first Brute-Force attempt."
+    },
+    {
+        "startDate": "2013-11-23T14:19:57.000Z",
+        "endDate": "2013-11-23T15:24:00.000Z",
+        "headline": "Nikto Scan Against legacyportal.sarif.com",
+        "text": "Attacker attempted a niktos scan against legacy portal",
+        "asset":
+                {
+                    "media":"img/nikto-scan.png"
+                }
+    },
+
+
+    {
+        "startDate": "2013-11-23T15::30.000Z",
+        "endDate": "2013-11-23T16:00:00.000Z",
+        "headline": "Brute-Force Attempt #2",
+        "text": "Second Brute-force attempt was noticed against legacy portal.",
+        "type": "title"
+    },
+
+
+    {
+        "startDate": "2013-11-23T15:08:00.000Z",
+        "endDate": "2013-11-23T15:08:00.000Z",
+        "headline": " Instructed SOC to blacklists Attacking IPs",
+        "text": "SOC took list of attacking IPs and blacklisted some of them as a result of a 2nd Brute-force attempt to legacy portal.",
+        "type": "title",
+        "asset":
+                {
+                    "media":"img/blacklistedips-portal.png"
+                }
+    },
+    {
+        "startDate": "2013-11-23T15:55:00.000Z",
+        "endDate": "2013-11-23T15:55:00.000Z",
+        "headline": "Attack End",
+        "text": "We stopped seeying malicious data at this time, offical attack end time."
+    },
+    {
+        "startDate": "2013-11-23T16:19:00.000Z",
+        "endDate": "2013-11-23T16:19:00.000Z",
+        "headline": "OPSEC Compiles list of sources",
+        "text": "OPSEC parsed all attack data to show that all sources originated from a company called LIMB International, Inc.  -  A hosting provider.",
+        "type": "title"
+    },
+    {
+        "startDate": "2013-11-23T16:48:00.000Z",
+        "endDate": "2013-11-23T16:48:00.000Z",
+        "headline": "OPSEC Notifies LIMB International",
+        "text": "OPSEC sent an email to LIMB International, notifying them of possible breach of their servers.",
+        "type": "title"
+    },
+    {
+        "startDate": "2013-11-23T17:43:00.000Z",
+        "endDate": "2013-11-23T17:43:00.000Z",
+        "headline": "Legacy Portal accounts disabled",
+        "text": "OPSEC and QA worked together to disable all legacy portal admin accounts",
+        "type": "title"
+    },
+
+
+    {
+        "startDate": "2013-11-25T16:00:00.000Z",
+        "endDate": "2013-11-25T16:00:00.000Z",
+        "headline": "Portal Accounts Enabled - Incident Ended",
+        "text": "Official Incident End-time",
+        "type": "title"
+               }
+
+
+        ]
+    }
+}
+
